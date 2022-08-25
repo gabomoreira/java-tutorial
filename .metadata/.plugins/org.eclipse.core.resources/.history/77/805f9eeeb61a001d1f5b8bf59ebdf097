@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String name = "Gabo";
+		
+		// boolean result = name.equalsIgnoreCase("gabo");
+		// int result = name.length();
+		char result = name.charAt(0);
+		
+		System.out.println(result);
+	}
+
+}

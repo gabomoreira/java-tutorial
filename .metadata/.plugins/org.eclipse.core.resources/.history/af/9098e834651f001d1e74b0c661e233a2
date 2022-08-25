@@ -1,0 +1,11 @@
+
+public class Person {
+	
+	double height;
+	double weight;
+	
+	public double calculateBMI(double height, double weight) {
+		double imc = height / (weight * weight);
+		return imc;
+	}
+}

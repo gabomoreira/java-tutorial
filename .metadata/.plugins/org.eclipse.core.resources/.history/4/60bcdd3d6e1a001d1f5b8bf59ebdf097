@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Math.abs => transform in positive number
+		
+		double x = 3.14;
+		double y = -10;
+		
+		double z = Math.sqrt(x);
+		
+		System.out.println(z);
+	}
+
+}

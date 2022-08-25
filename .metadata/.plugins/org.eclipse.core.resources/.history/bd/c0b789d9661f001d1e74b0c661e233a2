@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Person person = new Person();
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter your height: ");
+		person.height = scanner.nextDouble();
+		System.out.println("Enter your weight: ");
+		person.weight = scanner.nextDouble();
+		System.out.println("Your BMI is " + person.calculateBMI(person.height, person.weight));
+		
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class Human {
+	
+	String a;
+	
+	Human(String name, int age, double wight) {
+		a = name;
+	}
+}

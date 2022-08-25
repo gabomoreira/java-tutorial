@@ -1,0 +1,11 @@
+import java.sql.Date;
+
+public class Seller {
+
+	private String name;
+	private String cpf;
+	private float salary;
+	private Date birthDate;
+	
+	public Seller()
+}

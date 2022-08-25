@@ -1,0 +1,16 @@
+import java.sql.Date;
+import java.time.LocalDate;
+
+public class Seller extends Employee{
+
+	private int totalItemsSold;
+	private float commissionPerItem;
+	
+	public Seller(String name, String cpf, float salary, LocalDate birthDate) {
+		super(name,cpf,salary,birthDate);
+	}
+	
+	
+	
+	
+}

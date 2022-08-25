@@ -1,0 +1,11 @@
+import java.time.LocalDate;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Seller seller = new Seller("Gabriel", "123", 2500, LocalDate.now());
+		Driver driver = new Driver("Ayanokoji", "234", 4500, LocalDate.now());
+	}
+
+}

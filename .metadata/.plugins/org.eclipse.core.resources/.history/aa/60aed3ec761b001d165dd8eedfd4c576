@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Friend friend = new Friend("gabo");
+		Friend friend2 = new Friend("anya");
+		Friend friend3 = new Friend("zoe");
+		
+		Friend.displayFriends();
+	}
+
+}

@@ -1,0 +1,17 @@
+import javax.swing.JFrame;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		// JButton = a button that performs an action when clicked on
+
+		JFrame frame = new JFrame();
+	
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setLayout(null);
+		frame.setSize(500,500);
+		frame.setVisible(true);
+	}
+
+}

@@ -1,0 +1,15 @@
+import java.time.LocalDate;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Seller seller = new Seller("Gabriel", "123", 2500, LocalDate.now(), 7, 150);
+		Driver driver = new Driver("Ayanokoji", "234", 4500, LocalDate.now());
+	
+		
+		System.out.println(seller.toString());
+		
+	}
+
+}

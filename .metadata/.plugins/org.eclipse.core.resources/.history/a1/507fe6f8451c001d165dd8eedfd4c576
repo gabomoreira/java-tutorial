@@ -1,0 +1,23 @@
+
+public class Car {
+	
+	private String make;
+	private String model;
+	private int year;
+	
+	Car(String make, String model, int year) {
+		this.getMake(make);
+		this.getModel(model);
+		this.getYear(year);
+	}
+
+	public void getMake(String make) {
+		this.make = make;
+	}
+	public void getModel(String model) {
+		this.model = model;
+	}
+	public void getYear(int year) {
+		this.year = year;
+	}
+}

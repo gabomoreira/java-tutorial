@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int yearOfManufacture = 0;
+		float valueOfCar = 0.0f;
+		boolean wantToRepeat = true;
+		float percentageDiscount = 0.0f;
+		float valueDiscount = 0.0f;
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println(12/100);
+		
+		while(wantToRepeat == true) {
+			System.out.println("Enter value of car: ");
+			valueOfCar = scanner.nextFloat();
+			System.out.println("Enter year of manufacture: ");
+			yearOfManufacture = scanner.nextInt();
+			
+			if(yearOfManufacture <= 2000) {
+				valueDiscount = valueOfCar * (12/100);
+			}
+		}
+	}
+
+}

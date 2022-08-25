@@ -1,0 +1,14 @@
+import javax.swing.JFrame;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// JFrame => a HUI window to add components to
+		
+		JFrame frame = new JFrame(); // creates a frame
+		
+		frame.setVisible(true); // make frame visible
+	}
+
+}
